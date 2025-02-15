@@ -57,6 +57,13 @@
 
 
 	
+		
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+		
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+	
 
 	<script>
 		var argonConfig = {
@@ -431,8 +438,6 @@
 <div id="content" class="site-content">
 
 
-	<script src="https://cdn.jsdelivr.net/npm/@waline/client"></script>
-
 
 
 
@@ -780,17 +785,24 @@
 </script>
 
 
-
-
 	<div id="post_comment" class="card shadow-sm">
-		<div id="waline"></div>
-<script>
-  Waline({
-	el: '#waline',
-	serverURL: 'https://lezi.borisy.bar',
-  });
+		<div id="gitalk-container"></div>
+<script type="text/javascript">
+	var gitalk = new Gitalk({
+		clientID: 'Ov23liVdN07WmsDfHBLI',
+		clientSecret: '692004ac16cf4f3df43f0ad157882d6b4d7abfac',
+		repo: 'lezi-borisy',
+		owner: 'SoftOSDev',
+		admin: ['SoftOSDev'],
+		id: 'Coding | Minecraft插件配置-Lagfixer汉化',
+		distractionFreeMode: false
+	})
+	gitalk.render('gitalk-container');
 </script>
+
 	</div>
+
+
 
 
 <div class="post-navigation card shadow-sm"><div class="post-navigation-item post-navigation-pre"></div><div class="post-navigation-item post-navigation-next"><span class="page-navigation-extra-text">下一篇 <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span><a href="/2025/02/15/lezi-hacker/" rel="next"> 乐子网暴者</a></div></div>
