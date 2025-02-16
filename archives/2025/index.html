@@ -314,7 +314,7 @@
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
-			opacity: 1;
+			opacity: 0.8;
 			transition: opacity .5s ease;
 		}
 		html.darkmode #content:before{
@@ -338,7 +338,7 @@
 				transition: opacity .5s ease;
 			}
 			html.darkmode #content:after {
-				opacity: 1;
+				opacity: 0.8;
 			}
 			html.darkmode #content:before {
 				opacity: 0;
@@ -365,10 +365,10 @@
 	<button id="fabtn_go_to_comment" class="btn btn-icon btn-neutral fabtn shadow-sm d-none" type="button" style='display: none;'  aria-label="Comment" tooltip="评论">
 		<span class="btn-inner--icon"><i class="fa fa-comment-o"></i></span>
 	</button>
-	<button id="fabtn_toggle_darkmode" class="btn btn-icon btn-neutral fabtn shadow-sm" type="button" style='display: none;'  aria-label="Toggle Darkmode" tooltip-darkmode="夜间模式" tooltip-blackmode="暗黑模式" tooltip-lightmode="日间模式">
+	<button id="fabtn_toggle_darkmode" class="btn btn-icon btn-neutral fabtn shadow-sm" type="button"  aria-label="Toggle Darkmode" tooltip-darkmode="夜间模式" tooltip-blackmode="暗黑模式" tooltip-lightmode="日间模式">
 		<span class="btn-inner--icon"><i class="fa fa-moon-o"></i><i class='fa fa-lightbulb-o'></i></span>
 	</button>
-	<button id="fabtn_toggle_blog_settings_popup" class="btn btn-icon btn-neutral fabtn shadow-sm" type="button"  aria-label="Open Blog Settings Menu" tooltip="设置">
+	<button id="fabtn_toggle_blog_settings_popup" class="btn btn-icon btn-neutral fabtn shadow-sm" type="button" style='display: none;'  aria-label="Open Blog Settings Menu" tooltip="设置">
 		<span class="btn-inner--icon"><i class="fa fa-cog"></i></span>
 	</button>
 	<div id="fabtn_blog_settings_popup" class="card shadow-sm" style="opacity: 0;" aria-hidden="true">
@@ -487,7 +487,7 @@
 							<nav class="site-state">
 								<div class="site-state-item site-state-posts">
 									<a href="/archives">
-										<span class="site-state-item-count">2</span>
+										<span class="site-state-item-count">3</span>
 										<span class="site-state-item-name">文章</span>
 									</a>
 								</div>
@@ -499,7 +499,7 @@
 								</div>      
 								<div class="site-state-item site-state-tags">
 									<a data-toggle="modal" data-target="#blog_tags">
-										<span class="site-state-item-count">12</span>
+										<span class="site-state-item-count">15</span>
 										<span class="site-state-item-name">标签</span>
 									</a>
 								</div>
@@ -564,7 +564,7 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<a class="badge badge-secondary tag" href="/tags/Code/" rel="tag">Code <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/DDoS/" rel="tag">DDoS <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/Lagfixer/" rel="tag">Lagfixer <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/Minecraft/" rel="tag">Minecraft <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E5%86%B7%E6%9A%B4%E5%8A%9B/" rel="tag">冷暴力 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/" rel="tag">我的世界 <span class="tag-num">2</span></a><a class="badge badge-secondary tag" href="/tags/%E6%8F%92%E4%BB%B6/" rel="tag">插件 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" rel="tag">服务器 <span class="tag-num">2</span></a><a class="badge badge-secondary tag" href="/tags/%E6%B1%89%E5%8C%96/" rel="tag">汉化 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E7%BD%91%E6%9A%B4/" rel="tag">网暴 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E8%AD%A6%E5%AF%9F/" rel="tag">警察 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E9%85%8D%E7%BD%AE/" rel="tag">配置 <span class="tag-num">1</span></a>
+				<a class="badge badge-secondary tag" href="/tags/Code/" rel="tag">Code <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/DDoS/" rel="tag">DDoS <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/Lagfixer/" rel="tag">Lagfixer <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/Minecraft/" rel="tag">Minecraft <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E4%BA%BA%E6%9D%83/" rel="tag">人权 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E5%86%B7%E6%9A%B4%E5%8A%9B/" rel="tag">冷暴力 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/" rel="tag">我的世界 <span class="tag-num">2</span></a><a class="badge badge-secondary tag" href="/tags/%E6%8F%92%E4%BB%B6/" rel="tag">插件 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E6%94%BF%E6%B2%BB/" rel="tag">政治 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" rel="tag">服务器 <span class="tag-num">2</span></a><a class="badge badge-secondary tag" href="/tags/%E6%B1%89%E5%8C%96/" rel="tag">汉化 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E7%BD%91%E6%9A%B4/" rel="tag">网暴 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E8%AD%A6%E5%AF%9F/" rel="tag">警察 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E8%AE%A8%E8%AE%BA/" rel="tag">讨论 <span class="tag-num">1</span></a><a class="badge badge-secondary tag" href="/tags/%E9%85%8D%E7%BD%AE/" rel="tag">配置 <span class="tag-num">1</span></a>
 			</div>
 		</div>
 	</div>
@@ -577,6 +577,66 @@
 		
 		
 				
+	<article class="post card bg-white shadow-sm border-0 ">
+	<header class="post-header text-center">
+		
+		<a class="post-title" href="/2025/02/16/renquan-china/">讨论 | 关于中国人权问题</a>
+		<div class="post-meta">
+			
+						
+						<div class="post-meta-detail post-meta-detail-time">
+							<i class="fa fa-clock-o" aria-hidden="true"></i>
+							<time title="发布于 2025-2-16 14:42:37 | 编辑于 2025-2-16 14:52:31">2025-2-16 14:42
+							</time>
+						</div>
+					
+						
+							<div class="post-meta-devide">|</div>
+						
+						<div class="post-meta-detail post-meta-detail-words">
+							<i class="fa fa-book" aria-hidden="true"></i>
+							<span id="busuanzi_container_page_pv">
+								阅读<span id="busuanzi_value_page_pv"></span>次
+							</span>
+						</div>
+					
+						
+							<div class="post-meta-devide">|</div>
+						
+						<div class="post-meta-detail post-meta-detail-words">
+							<i class="fa fa-file-word-o" aria-hidden="true"></i>
+							912 字
+						</div>
+					
+						
+							<div class="post-meta-devide">|</div>
+						
+						<div class="post-meta-detail post-meta-detail-readingtime">
+							<i class="fa fa-hourglass-end" aria-hidden="true"></i>
+							3 分钟
+						</div>
+					
+		</div>
+		
+	</header>
+
+	<div class="post-content">
+		
+			
+				中国人权问题：一个复杂的社会变革观前提示！本文章含有大量摄政语言，请勿理解为作者不爱国，本文所有观点均为作者主管评价，请勿过深理解！在当今世界，人权问题是一个重要的话题，特别是在一个发展迅速且具有巨大人口的国家如中国。中国人权问题是一个复杂的社会变革，涉及政治、经济、文化等多个方面。尽管中国政府在医疗保障和社会保障体系建设方面取得了一定的进步，但人...
+			
+		
+	</div>
+
+	
+		<div class="post-tags">
+			<i class="fa fa-tags" aria-hidden="true"></i>
+			<a class="tag badge badge-secondary post-meta-detail-tag -none-link" href="/tags/%E4%BA%BA%E6%9D%83/" rel="tag">人权</a><a class="tag badge badge-secondary post-meta-detail-tag -none-link" href="/tags/%E6%94%BF%E6%B2%BB/" rel="tag">政治</a><a class="tag badge badge-secondary post-meta-detail-tag -none-link" href="/tags/%E8%AE%A8%E8%AE%BA/" rel="tag">讨论</a>
+		</div>
+	
+</article>
+
+
 	<article class="post card bg-white shadow-sm border-0 ">
 	<header class="post-header text-center">
 		
